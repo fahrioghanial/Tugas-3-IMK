@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
 {
     [SerializeField] private int speed = 10;
     [SerializeField] private bool usePhysics = true;
-    private float jumpSpeed = 5000f;
+    private float jumpSpeed = 7000f;
     private bool canJump;
 
     private Camera _mainCamera;
