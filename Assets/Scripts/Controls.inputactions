@@ -24,18 +24,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Jump",
+                    "name": "Run",
                     "type": "Button",
-                    "id": "8f7c76c5-633d-4406-8904-a8e02ff47b65",
+                    "id": "f3878ac2-225a-45b0-9767-7912752ea429",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Run",
+                    "name": "Jump",
                     "type": "Button",
-                    "id": "39a1952e-852a-4ee1-957f-7f99158dc37d",
+                    "id": "c5176272-361c-43bb-a630-c774aaea2003",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -44,16 +44,16 @@
                 {
                     "name": "Pause",
                     "type": "Button",
-                    "id": "9132368c-7438-42d6-80e6-55bcd61668d1",
+                    "id": "41ca454d-28c4-4502-8a5a-4bd205005c5d",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Resume",
+                    "name": "Dance",
                     "type": "Button",
-                    "id": "7ac04ad6-434a-4cf3-86b2-9170f845388b",
+                    "id": "1aaf67a2-d8f2-43d5-80fa-750e31097c7c",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -151,7 +151,29 @@
                 },
                 {
                     "name": "",
-                    "id": "a17e3f59-8bc2-47a4-92c4-519801025f2d",
+                    "id": "6b0c1f8d-f3a3-4d49-b6fa-43fbb638b525",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dcb5a760-c3ff-4c8e-b64d-143e7bda2f00",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b1094b56-83f5-4167-bebb-42f5a3d012a7",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
@@ -162,20 +184,20 @@
                 },
                 {
                     "name": "",
-                    "id": "8d22ae9c-e5ab-4ecf-b923-204357d5cfdf",
-                    "path": "<Keyboard>/shift",
-                    "interactions": "Hold",
+                    "id": "28aa43de-e7cc-45d1-8376-9f88cc119125",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Run",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "a00e6d80-4217-4325-84d5-fed3c073ef6b",
-                    "path": "<Keyboard>/p",
-                    "interactions": "Tap",
+                    "id": "52f804ef-f4a3-488f-a49e-ce2d75709da5",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Pause",
@@ -184,12 +206,23 @@
                 },
                 {
                     "name": "",
-                    "id": "c04f47e1-182b-450e-aeb4-557978abf7cb",
-                    "path": "<Keyboard>/r",
+                    "id": "a38b32a6-3285-4481-9a6a-8643033b48ab",
+                    "path": "<Gamepad>/start",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Resume",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7f3d29ab-49f5-4e46-8100-1a4f20b1bbeb",
+                    "path": "<Keyboard>/#(F)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dance",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
